@@ -267,10 +267,9 @@ function testPerformance(iterations, func) {
 
 // данная функция необходима для корректного тестирования кода
 
-let myLongStr = "a [aa j[a j[j [ajn; ;aj j[ a ]i0-]qi]  ]g ]akgágám'lkam'lkaj'fajs[pfdia[pfoiafa'fkal';m 'k ''k";
-
 function test1() {
   let str = myLongStr;
+  
   while (str.indexOf('o') !== -1) str = str.replace('o', '');
   while (str.indexOf('a') !== -1) str = str.replace('a', '');
   while (str.indexOf('e') !== -1) str = str.replace('e', '');
